@@ -1,0 +1,11 @@
+.divColor{
+    background: black;
+    width: 150px;
+    height: 115px;
+    border-radius: 20px;
+}
+
+.content{
+    border-radius: 20px;
+    background-color: white;
+}

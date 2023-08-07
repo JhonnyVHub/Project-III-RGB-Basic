@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB - COLOR</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="bootcss/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container col-7 border border-3 content">
+        <div class="row">
+            <div class="col-12"><p></p></div>
+
+            <div class="text-center col-12">
+                <h5> ESCOLHA A COR (RGB) </h5>
+            </div>
+
+            <div class="col-12"><p></p></div>
+
+            <div class="col-6">
+
+                <p>
+                    <label for="">(R):
+                    <input type="range" min="0" max="255" id="range1" class="range form-range" value="0" oninput="rgb()">
+                    <input type="text" readonly id="txt1" class="" size="1" value="0">
+                </p>
+
+                <p>
+                    <label for="">(G):</label>
+                    <input type="range" min="0" max="255" id="range2" class="range form-range" value="0" oninput="rgb()">
+                    <input type="text" readonly id="txt2" class="" size="1" value="0">
+                </p>
+
+                <p>
+                    <label for="">(B):</label>
+                    <input type="range" min="0" max="255" id="range3" class="range form-range" value="0" oninput="rgb()">
+                    <input type="text" readonly id="txt3" class="" size="1" value="0">
+                </p>
+            </div>
+
+            <div class="col-5 container divColor border border-1 border-dark" id="divColor"></div>
+
+            <div class="col-12"><p></p></div>
+
+        </div>
+    </div>
+</body>
+</html>
